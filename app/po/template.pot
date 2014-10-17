@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+msgid "12-A, Jalan 2/109E, Taman Desa Business Park, Off Jalan Kelang Lama 58100, Kuala Lumpur, WP Kuala Lumpur 58100 Malaysia."
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "About Us"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/index.html
+msgid "BorNeo"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl_mob.js
+msgid "BorNeo App is Awesome"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+msgid "Borneo Essential SPA Treatment Sdn. Bhd."
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+msgid "Borneo Essential SPA Treatment Sdn. Bhd. (Co.Reg. 829154-X)"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Check out this latest news from BorNeo"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Contact Us"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/facebook.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Facebook"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+msgid "Language"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl_mob.js
+msgid "Language changed successfully"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Latest News"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Latest Promotion..."
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Loading..."
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/facebook.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+msgid "Menu"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Setting"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl.tpl.cch_mob.html
+msgid "Share"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+msgid "Share This App"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl_mob.js
+msgid "Share you an App, I think you may like it"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+msgid "Tel: 03-7980 2628"
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+msgid "Too cultivated use solicitude frequently. Dashwood likewise up consider continue entrance ladyship oh. Wrong guest given purse power is no. Friendship to connection an am considered difficulty. Country met pursuit lasting moments why calling certain the. Middletons boisterous our way understood law. Among state cease how and sight since shall. Material did pleasure breeding our humanity she contempt had. So ye really mutual no cousin piqued summer result."
+msgstr ""
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Updated on Jun 26, 2014"
+msgstr ""

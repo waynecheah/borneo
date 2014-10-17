@@ -1,0 +1,19 @@
+@import "../../styles/_base"
+
+.slidesWrap
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1)
+.slide
+    +dimen(100%, 360px)
+    background: #d3d3d3 url(../images/slide01.jpg) center center no-repeat
+    background-size: cover
+
+.details
+    border-left: 3px solid #4180ab
+    .company
+        +font(15px, #4180ab)
+        white-space: normal
+    p
+        font-size: 13px
+    .description
+        margin-top: 10px
+        white-space: normal

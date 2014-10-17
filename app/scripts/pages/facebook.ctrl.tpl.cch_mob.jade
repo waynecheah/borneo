@@ -1,0 +1,9 @@
+
+ion-view(title="{{'Facebook'|translate}}")
+  ion-nav-buttons(side='right')
+    button.button.button-clear(on-tap='app.toggleMenu()')
+      i.icon.ion-navicon
+      .hide(translate) Menu
+
+  ion-content(has-bouncing='true')
+    iframe.iframe(ng-src='{{facebook.trustSrc()}}', ng-style='facebook.style')

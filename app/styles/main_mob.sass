@@ -1,0 +1,257 @@
+/*
+ *To customize the look and feel of Ionic, you can override the variables
+ *in ionic's _variables.scss file.
+ *
+ *For example, you might change some of the default colors:
+ *
+ *$light:                           #fff !default;
+ *$stable:                          #f8f8f8 !default;
+ *$positive:                        #4a87ee !default;
+ *$calm:                            #43cee6 !default;
+ *$balanced:                        #66cc33 !default;
+ *$energized:                       #f0b840 !default;
+ *$royal:                           #8a6de9 !default;
+ *$dark:                            #444 !default;
+
+$positive: #004866 !default
+$tabs-icon-size: 24px
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../fonts" !default
+
+// Include all of Ionic 
+@import "../bower_components/ionic/scss/ionic"
+@import "_base"
+
+
+$themeColor: #f8b715
+$green: #56ccc8
+
+@font-face
+    +fontStyle(100, normal, 'Roboto')
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('../fonts/Roboto-Thin.woff') format('woff')
+@font-face
+    +fontStyle(300, normal, 'Roboto')
+    src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/Roboto-Light.woff') format('woff')
+@font-face
+    +fontStyle(400, normal, 'Roboto')
+    src: local('Roboto Regular'), local('Roboto-Regular'), url('../fonts/Roboto.woff') format('woff')
+@font-face
+    +fontStyle(700, normal, 'Roboto')
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/Roboto-Bold.woff') format('woff')
+@-webkit-keyframes spin
+    100%
+        transform: rotate(360deg)
+
+
+.bodyWrapper
+    +dimenPos()
+    +position(50%, 50%)
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .2)
+    font-family: 'Roboto', Sans-Serif
+    font-size: 18px
+    max-width: 1280px
+    transform: translate(-50%, -50%)
+    z-index: 5
+.updatesWrap.has-footer.has-tabs
+    bottom: 0
+
+//
+// Common
+//
+.box
+    width: 300px
+    height: 264px
+.bold
+    font-weight: bold
+.icon
+    padding-right: 3px
+.fullscreen
+    +position(0, 0, 0, 0)
+    position: absolute
+    overflow: hidden
+.oneline
+    +textWrap
+.sp
+    padding-left: 3px
+.text-right
+    text-align: right
+
+//
+// Tabs
+//
+.keyboard-open
+    .bottomTabs .tabs
+        display: none
+    .has-footer.has-tabs
+        bottom: 0 !important
+.bottomTabs
+    .bar-header.nav-bar
+        z-index: 12
+
+//
+// Right side menu
+//
+.overlay
+    +position(0, 0, 0, 0)
+    position: absolute
+    opacity: 0
+    background-color: rgba(0, 0, 0, .4)
+    transform: translate(100%,0px) translateZ(0px)
+    &.active
+        opacity: 1
+        z-index: 12
+        transform: translate(0px,0px) translateZ(0px)
+        -webkit-animation: overlay-show $transition-duration
+.menuWrap
+    $width: 230px
+    +dimenPos($width, 100%)
+    background-color: #004866
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.2), 1px 0px 2px rgba(0, 0, 0, 0.2)
+    overflow: hidden
+    left: 0
+    -webkit-transform: translate(-$width, 0px) translateZ(0px)
+    transition: transform $transition-duration
+    &.active
+        z-index: 15
+        -webkit-transform: translate(0px, 0px) translateZ(0px)
+    ul.list
+        margin-top: -3px
+        margin-right: 2px
+        li.item
+            background-color: transparent
+            border: 0
+            color: #fff
+            line-height: 20px
+            padding: 12px 16px 12px 42px
+            &.active
+                background-color: #4180ab
+            .icon
+                font-size: 18px
+.item-radio input:checked ~ .item-content
+    background-color: transparent
+    font-weight: bold
+.item-radio input:checked ~ .radio-icon
+    color: #66cc33
+
+.scroll-content
+    .scroll
+        height: 100%
+
+//
+// Popup
+//
+.popup
+    border-radius: 6px
+    .popup-head .popup-sub-title
+        font-size: 13px
+    .popup-body
+        padding: 10px 12px
+        .wrap
+            background-color: #fff
+            border-radius: 5px
+            padding: 5px
+            input
+                padding: 2px 12px
+            .hr
+                background-color: #cdcdcd
+                height: 1px
+
+//
+// Left side menu
+//
+.sidebar
+    .has-header
+        top: 80px
+        .list > .item
+            span.icon
+                color: #767676
+            span.txt
+                +font(17px, #767676)
+            &.active
+                background-color: rgba(217, 217, 217, .33)
+                span
+                    color: #e21d3f
+                    font-weight: bold
+
+.bar.bar-header.nav-bar
+    button.button.button-clear.done
+        color: $positive
+    button.button.button-clear.done[disabled]
+        color: #808080
+
+//
+// Main Content
+//
+.contentBg
+    background-color: #efeff4
+    .list
+        border-radius: 5px
+        label.item-input
+            border-width: 0
+            position: relative
+            &.invalid
+                span.statusIcon.bad
+                    opacity: 1
+            &.valid
+                span.statusIcon.ok
+                    opacity: 1
+            input
+                border-bottom: 1px solid #ddd
+            span.statusIcon
+                +dimenPos(21px, 21px)
+                font-size: 35px
+                opacity: 0
+                top: 28px
+                right: 8px
+                &.bad
+                    color: $assertive
+                &.ok
+                    color: $balanced
+        ul.list li.item.item-toggle
+            border-width: 0
+            padding-top: 23px
+            padding-bottom: 22px
+            label.toggle
+                top: 15px
+
+//
+// Form Elements
+//
+form.form
+    .list
+        padding: 12px 23px
+        label.item.item-input.item-floating-label
+            border-width: 0px 0px 1px 0px
+            border-color: #aaa
+            padding-left: 0
+            .input-label
+                color: #1c1c1c
+            input
+                &::-webkit-input-placeholder
+                    text-transform: uppercase
+
+    .item
+        &.item-input
+            &.invalid
+                .input-label
+                    color: $assertive
+                input
+                    border-bottom-color: $assertive !important
+                    &::-webkit-input-placeholder
+                        color: $assertive
+            &.valid
+                .input-label
+                    color: #349D00
+            .input-label
+                font-weight: bold
+
+
+
+@-webkit-keyframes overlay-show
+    0%
+        opacity: 0
+        -webkit-transform: translate(0px, 0px) translateZ(0px)
+    100%
+        opacity: 1

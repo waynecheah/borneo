@@ -1,0 +1,16 @@
+
+ion-view(title="{{'Contact Us'|translate}}")
+  ion-nav-buttons(side='right')
+    button.button.button-clear(on-tap='app.toggleMenu()')
+      i.icon.ion-navicon
+      .hide(translate) Menu
+
+  ion-content.padding(has-bouncing='true')
+    .card
+      .item.mapWrap
+        img.map(src='{{contact.mapsUrl}}')
+    .card.details
+      .item
+        .company(translate) Borneo Essential SPA Treatment Sdn. Bhd. (Co.Reg. 829154-X)
+        p.address(translate) 12-A, Jalan 2/109E, Taman Desa Business Park, Off Jalan Kelang Lama 58100, Kuala Lumpur, WP Kuala Lumpur 58100 Malaysia.
+        p(translate) Tel: 03-7980 2628

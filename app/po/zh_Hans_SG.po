@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BorNeo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Wayne Cheah <cheahkokweng@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_Hans_SG\n"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+msgid ""
+"12-A, Jalan 2/109E, Taman Desa Business Park, Off Jalan Kelang Lama 58100, "
+"Kuala Lumpur, WP Kuala Lumpur 58100 Malaysia."
+msgstr ""
+"12-A，2/109E路，塔曼德萨商业园，关巴生惹喇嘛58100，吉隆坡，吉隆坡58100马来西"
+"亚。"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "About Us"
+msgstr "关于我们"
+
+#: /Users/Cheah/Sites/Borneo/build/index.html
+msgid "BorNeo"
+msgstr "婆罗洲"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl_mob.js
+msgid "BorNeo App is Awesome"
+msgstr "婆罗洲应用程序真的很棒"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+msgid "Borneo Essential SPA Treatment Sdn. Bhd."
+msgstr "婆罗洲基本的水疗私人有限公司"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+msgid "Borneo Essential SPA Treatment Sdn. Bhd. (Co.Reg. 829154-X)"
+msgstr "婆罗洲基本的水疗私人有限公司 （企业注册 829154-X）"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Check out this latest news from BorNeo"
+msgstr "查看婆罗洲这个最新的消息"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/facebook.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Facebook"
+msgstr "脸书"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+msgid "Language"
+msgstr "语言"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl_mob.js
+msgid "Language changed successfully"
+msgstr "语言更改成功"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Latest News"
+msgstr "最新消息"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Latest Promotion..."
+msgstr "最新促销。。。"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Loading..."
+msgstr "加载中。。。"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/facebook.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+msgid "Menu"
+msgstr "菜单"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/menu.ctrl_mob.js
+msgid "Setting"
+msgstr "设定"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl.tpl.cch_mob.html
+msgid "Share"
+msgstr "分享"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl.tpl.cch_mob.html
+msgid "Share This App"
+msgstr "分享这个应用程序"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/setting.ctrl_mob.js
+msgid "Share you an App, I think you may like it"
+msgstr "分享一个应用程序给你，我想你可能会喜欢"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/contact.ctrl.tpl.cch_mob.html
+msgid "Tel: 03-7980 2628"
+msgstr "电话：03-79802628"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/about.ctrl.tpl.cch_mob.html
+msgid ""
+"Too cultivated use solicitude frequently. Dashwood likewise up consider "
+"continue entrance ladyship oh. Wrong guest given purse power is no. "
+"Friendship to connection an am considered difficulty. Country met pursuit "
+"lasting moments why calling certain the. Middletons boisterous our way "
+"understood law. Among state cease how and sight since shall. Material did "
+"pleasure breeding our humanity she contempt had. So ye really mutual no "
+"cousin piqued summer result."
+msgstr ""
+"过于频繁地使用耕地关怀。达什伍德也考虑了继续高考老人家哦。错误的客人给出钱包"
+"功率是否定的。友谊方面的考虑很困难。国家满足追求持久的时刻，为什么一定叫的。"
+"米德尔顿热闹的我们的方式了解法律。其中国家如何停止和视线，因为应。材料做的乐"
+"趣养殖我们的人性，她蔑视了。所以，你们真的互不表弟引起了夏天结果。"
+
+#: /Users/Cheah/Sites/Borneo/build/scripts/pages/news.ctrl_mob.js
+msgid "Updated on Jun 26, 2014"
+msgstr "更新于2014年6月26日"

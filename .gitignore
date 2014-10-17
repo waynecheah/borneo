@@ -1,0 +1,10 @@
+*.mo
+.DS_Store
+.idea
+.sass-cache
+app/bower_components
+build
+dist
+ionic
+node_modules
+tmp

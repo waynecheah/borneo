@@ -1,0 +1,19 @@
+
+ion-view(title="{{'Latest News'|translate}}")
+  ion-nav-buttons(side='left')
+    button.button.button-clear(on-tap='app.toggleMenu()')
+      i.icon.ion-navicon
+      .hide(translate) Menu
+
+  ion-content.padding(has-bouncing='true')
+    .list.card(ng-repeat='item in news.data')
+      .item.item-body
+        .newsImg(ng-style='item.img')
+        .row
+          .col.title(ng-if='item.title') {{item.title}}
+        .row.r2
+          .col-75 {{item.updated}}
+          .col-25.right
+            span.subdued(on-tap='news.share($index)')
+              i.icon.ion-share
+              span.sp(translate) Share

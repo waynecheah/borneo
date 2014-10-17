@@ -1,0 +1,86 @@
+=dimen($width: 100%, $height: 100%, $minWidth: null, $minHeight: null)
+    @if $width != null
+        width: $width
+    @if $height != null
+        height: $height
+    @if $minWidth != null
+        min-width: $minWidth
+    @if $minHeight != null
+        min-height: $minHeight
+
+=border($border: null, $radius: null)
+    @if $border != null
+        border: $border
+    @if $radius != null
+        border-radius: $radius
+
+=boxModel($margin: null, $padding: null, $border: null, $radius: null)
+    +border($border, $radius)
+    @if $margin != null
+        margin: $margin
+    @if $padding != null
+        padding: $padding
+
+=position($top: null, $left: null, $bottom: null, $right: null)
+    @if $top != null
+        top: $top
+    @if $left != null
+        left: $left
+    @if $bottom != null
+        bottom: $bottom
+    @if $right != null
+        right: $right
+
+=dimenPos($width: 100%, $height: 100%, $position: absolute)
+    +dimen($width, $height)
+    position: $position
+
+=dimenPosBox($width: 100%, $height: 100%, $position: absolute, $margin: null, $padding: null, $border: null, $radius: null)
+    +dimenPos($width, $height, $position)
+    +boxModel($margin, $padding, $border, $radius: null)
+
+=dimenPosition($width: 100%, $height: 100%, $position: absolute, $top: null, $left: null, $bottom: null, $right: null)
+    +dimenPos($width, $height, $position)
+    +position($top, $left, $bottom, $right)
+
+=fontStyle($fontWeight: null, $fontStyle: null, $fontFamily: null)
+    @if $fontWeight != null
+        font-weight: $fontWeight
+    @if $fontStyle != null
+        font-style: $fontStyle
+    @if $fontFamily != null
+        font-family: $fontFamily
+
+=font($size: null, $color: null, $lineHeight: null, $fontWeight: null, $fontStyle: null, $fontFamily: null)
+    @if $size != null
+        font-size: $size
+    @if $color != null
+        color: $color
+    @if $lineHeight != null
+        line-height: $lineHeight
+    +fontStyle($fontWeight, $fontStyle, $fontFamily)
+
+=fullscreen
+    +position(0, 0, 0, 0)
+    position: absolute
+
+=centralize
+    +fullscreen()
+    margin: auto
+
+=bgGradient($bg...)
+    background-image: gradient($bg)
+
+=bgCover
+    background: transparent center center no-repeat
+    background-size: cover
+
+=animation($name, $duration: null, $easing: null, $fillMode: null, $delay: null, $count: null, $direction: null)
+    -webkit-animation: $name $duration $easing $fillMode $delay $count $direction
+
+=textWrap
+    text-overflow: ellipsis
+    white-space: nowrap
+    overflow: hidden
+
+$transition-duration: 300ms

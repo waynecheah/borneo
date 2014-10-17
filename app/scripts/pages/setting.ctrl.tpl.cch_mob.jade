@@ -1,0 +1,28 @@
+
+ion-view(title="{{'Setting'|translate}}")
+  ion-nav-buttons(side='right')
+    button.button.button-clear(on-tap='app.toggleMenu()')
+      i.icon.ion-navicon
+      .hide(translate) Menu
+
+  ion-content(has-bouncing='true')
+    .list
+      .item.item-divider(translate) Language
+      label.item.item-radio(on-tap='setting.change()')
+        input(type='radio', name='language', value='en', ng-model='setting.language')
+        .item-content.radio-balanced English
+        .radio-icon.ion-checkmark
+      label.item.item-radio(on-tap='setting.change()')
+        input(type='radio', name='language', value='ms_Latn_MY', ng-model='setting.language')
+        .item-content.radio-balanced Bahasa Melayu
+        .radio-icon.ion-checkmark
+      label.item.item-radio(on-tap='setting.change()')
+        input(type='radio', name='language', value='zh_Hans_SG', ng-model='setting.language')
+        .item-content.radio-balanced 中文
+        .radio-icon.ion-checkmark
+
+      p &nbsp;
+      .padding
+        button.button.button-block.button-calm(on-tap='setting.share()')
+          i.icon.ion-android-share
+          span.sp(translate) Share This App

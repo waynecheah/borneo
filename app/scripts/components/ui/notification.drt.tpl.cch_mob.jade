@@ -1,0 +1,9 @@
+.notification.padding(ng-class='vm.styles')
+  .icon
+    i.icon(ng-class='vm.icon')
+  .content(ng-if='vm.title')
+    .title.textWrap {{vm.title}}
+    .subtitle.textWrap {{vm.subtitle}}
+    .description.textWrap(ng-if='vm.describe') {{vm.describe}}
+  .close(ng-class='{hide:vm.autoClose}', on-tap='vm.close()')
+    i.icon.ion-ios7-close-outline

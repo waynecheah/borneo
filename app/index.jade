@@ -1,0 +1,37 @@
+doctype html
+html(ng-app='app')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimal-ui')
+    //meta(name='apple-mobile-web-app-capable', content='yes')
+    //meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    title(translate) BorNeo
+    // build:css lib/styles.css 
+    // inject:mobile:css 
+    // endinject 
+    // endbuild 
+
+  body(ng-controller='AppCtrl as app')
+    .bodyWrapper
+      gl-notification
+
+      ion-nav-bar.bar-positive.nav-title-slide-ios7(animation='nav-title-slide-ios7', ng-style='headerStyle')
+        ion-nav-back-button.button-icon.ion-ios7-arrow-back
+      ion-nav-view.navView(animation='slide-left-right')
+
+    .menuWrap(ng-controller='MenuCtrl as menu', ng-class='{active:app.onMenu}')
+      img.logo(src='./images/logo.png')
+      ul.list
+        li.item.item-icon-left(ng-repeat='item in menu.list', ng-class='{active:item.active}',
+        on-tap='menu.goto($index);app.closeOverlay()')
+          i.icon(ng-class='item.icon')
+          | {{item.name}}
+    .overlay(ng-class='{active:app.onOverlay}', on-tap='app.closeOverlay()')
+
+    // build:js lib/scripts.js 
+    // inject:mobile:js 
+    // endinject 
+    // endbuild 
+    // cordova script (this will be a 404 during development) 
+    script(src='cordova.js')
+ 
